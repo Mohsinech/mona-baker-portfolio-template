@@ -1,0 +1,154 @@
+.hero_section {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.hero_div_label {
+  display: flex;
+  height: 100%;
+  width: 60%;
+  align-items: end;
+  padding: 2rem;
+}
+
+.name_label {
+  font-family: "NOHEMI", sans-serif;
+  font-size: 140px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.right_content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+  justify-content: end;
+  gap: 5rem;
+  padding: 2rem;
+}
+
+.quote {
+  width: 80%;
+  font-family: "neue montreal", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.025em;
+}
+
+.author {
+  color: #6b7280;
+}
+
+.navigation_flex {
+  display: flex;
+  gap: 3.5rem;
+}
+
+.nav_flex_col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.nav_label {
+  font-family: "neue montreal", sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.05em;
+  color: #6b7280;
+}
+
+.quick_nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Responsive */
+
+@media (max-width: 1025px) {
+  .hero_section {
+    height: 60vh;
+  }
+
+  .name_label {
+    font-size: 8rem;
+    line-height: 1;
+  }
+
+  .quote {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 821px) {
+  .hero_section {
+    height: fit-content;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 2.5rem;
+    padding-top: 14rem;
+  }
+
+  .hero_div_label {
+    height: fit-content;
+    width: 100%;
+  }
+
+  .right_content {
+    height: fit-content;
+    width: 100%;
+    gap: 2.5rem;
+  }
+
+  .quote {
+    width: 60%;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .nav_label {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero_section {
+    padding-top: 12rem;
+  }
+
+  .name_label {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .right_content {
+    margin-top: -1rem;
+  }
+
+  .quote {
+    width: 80%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .navigation_flex {
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero_section {
+    padding-top: 9rem;
+  }
+
+  .navigation_flex {
+    gap: 2.5rem;
+  }
+}

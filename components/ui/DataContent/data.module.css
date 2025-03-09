@@ -1,0 +1,20 @@
+.flex_data {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.label {
+  font-family: "NOHEMI", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.025em;
+  color: white;
+}
+
+.desc {
+  font-family: "neue montreal", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.025em;
+  color: #d1d5db;
+}

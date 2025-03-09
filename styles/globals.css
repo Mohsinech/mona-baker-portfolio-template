@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font Neue montreal */
+@font-face {
+  font-family: "neue montreal";
+  src: url("../public/assets/fonts/montreal/NeueMontreal-Bold.woff2");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "neue montreal";
+  src: url("../public/assets/fonts/montreal/NeueMontreal-Medium.woff2");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "neue montreal";
+  src: url("../public/assets/fonts/montreal/NeueMontreal-Bold.woff2");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "neue montreal";
+  src: url("../public/assets/fonts/montreal/NeueMontreal-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Font Nohemi */
+@font-face {
+  font-family: "NOHEMI";
+  src: url("../public/assets/fonts/nohemi/Nohemi-Bold.woff2");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "NOHEMI";
+  src: url("../public/assets/fonts/nohemi/Nohemi-SemiBold.woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "NOHEMI";
+  src: url("../public/assets/fonts/nohemi/Nohemi-Medium.woff2");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "NOHEMI";
+  src: url("../public/assets/fonts/nohemi/Nohemi-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "NOHEMI";
+  src: url("../public/assets/fonts/nohemi/Nohemi-Light.woff2");
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "NOHEMI";
+  src: url("../public/assets/fonts/nohemi/Nohemi-ExtraLight.woff2");
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "NOHEMI";
+  src: url("../public/assets/fonts/nohemi/Nohemi-Thin.woff2");
+  font-style: normal;
+  font-weight: lighter;
+}
+
+.default {
+  opacity: 0;
+}

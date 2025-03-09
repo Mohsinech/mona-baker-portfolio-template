@@ -1,0 +1,150 @@
+.footer {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 1.25rem 0;
+}
+
+.main_container {
+  height: fit-content;
+  width: 95%;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background-color: #171717;
+  padding-bottom: 1rem;
+}
+
+.top_row {
+  display: flex;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex_col_rows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.heading_labels {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.h1 {
+  text-align: center;
+  font-family: "NOHEMI", sans-serif;
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 600;
+  color: white;
+}
+
+.mail_button {
+  width: fit-content;
+  border-radius: 9999px;
+  border: 1px solid #d1d5db;
+  padding: 0.5rem 1rem;
+  font-family: "NOHEMI", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: white;
+  letter-spacing: 0.025em;
+}
+
+.mail_button:hover {
+  background-color: white;
+  color: #171717;
+}
+
+.about_urls_flex {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding-top: 2rem;
+}
+
+.footer_bottom {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  border-top: 1px solid #9ca3af;
+  padding-top: 0.75rem;
+}
+
+.content_lef {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 2rem;
+}
+
+.copyright {
+  font-family: "neue montreal", sans-serif;
+  color: #e5e7eb;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.content_ri {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: end;
+}
+
+/* Responsive */
+@media (max-width: 1025px) {
+  .top_row {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 821px) {
+}
+
+@media (max-width: 640px) {
+  .heading_labels {
+    gap: 0.25rem;
+  }
+
+  .h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 200;
+  }
+
+  .mail_button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .top_row {
+    height: 70vh;
+  }
+
+  .h1 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .mail_button {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+}

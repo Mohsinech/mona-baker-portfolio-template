@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0.5em 1rem;
+}
+
+.header_logo {
+  font-family: "neue montreal", sans-serif;
+  font-weight: 600;
+}
+
+.local_career {
+  display: flex;
+  flex-direction: column;
+}
+
+.local_career_title {
+  font-family: "neue montreal", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+}
+
+.social_links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profile_pic {
+  position: relative;
+  display: flex;
+  height: 2rem;
+  width: 2rem;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 9999px;
+  background-color: #9ca3af;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.pic {
+  position: absolute;
+  cursor: pointer;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+@media (max-width: 640px) {
+  .header_logo {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .local_career,
+  .social_links {
+    display: none;
+  }
+}

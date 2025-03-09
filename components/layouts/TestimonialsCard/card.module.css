@@ -1,0 +1,72 @@
+.testimonial_card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-radius: 0.75rem;
+  padding: 1rem;
+}
+
+.flex_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex_col_data {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.fallback_div {
+  position: relative;
+  display: flex;
+  height: 3.5rem;
+  width: 3.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: #d1d5db;
+  font-family: "neue montreal", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.image {
+  position: absolute;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+.name_user_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-family: "NOHEMI", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+}
+
+.user {
+  font-family: "neue montreal", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #6b7280;
+}
+
+.twitter_icon {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  font-family: "neue montreal", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}

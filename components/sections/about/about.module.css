@@ -1,0 +1,100 @@
+.about_section {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 5rem;
+  background-color: #171717;
+  padding: 2rem;
+}
+
+.first_col {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image_container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 9999px;
+  height: 6rem;
+  width: 6rem;
+}
+
+.image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+.close_btn {
+  width: fit-content;
+  border-radius: 9999px;
+  border: 1px solid #d1d5db;
+  padding: 0.5rem 1rem;
+  font-family: "NOHEMI", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.025em;
+  color: white;
+}
+
+.close_btn:hover {
+  background-color: white;
+  color: #171717;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  cursor: grab;
+  gap: 3.5rem;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.book_button {
+  width: fit-content;
+  border-radius: 9999px;
+  border: 1px solid #d1d5db;
+  padding: 0.5rem 1rem;
+  font-family: "NOHEMI", sans-serif;
+  letter-spacing: 0.025em;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: white;
+}
+
+.book_button:hover {
+  background-color: white;
+  color: #171717;
+}
+
+.about_socials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 1025px) {
+}
+
+@media (max-width: 821px) {
+}
+
+@media (max-width: 640px) {
+}
+
+@media (max-width: 390px) {
+}
