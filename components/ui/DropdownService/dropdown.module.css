@@ -103,6 +103,10 @@
     line-height: 2rem;
   }
 
+  .label_one {
+    width: 50%;
+  }
+
   .dropdown_inner {
     justify-content: flex-start;
   }
@@ -113,7 +117,8 @@
   }
 
   .first_label_container {
-    gap: 2.5rem;
+    gap: 1rem;
+    flex-direction: column;
   }
 
   .label_desc {
