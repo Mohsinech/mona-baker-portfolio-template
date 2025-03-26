@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import Lenis from "lenis";
 import gsap from "gsap";
 import { Footer, Header } from "components/layouts";
-import Preloader from "components/preloader/Preloader";
+import { motion } from "framer-motion";
 
 export default function RootLayout({ children }) {
   const [isLoading, setIsLoading] = useState(true);
@@ -96,17 +96,18 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
-      <body className="bg-whity">
-        {isLoading ? (
-          <Preloader onComplete={() => setIsLoading(false)} />
-        ) : (
-          <main className="default">
-            <Header />
-            {children}
-            <Footer />
-          </main>
-        )}
-      </body>
+      <motion.body
+        className="bg-whity"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
+        <main className="default">
+          <Header />
+          {children}
+          <Footer />
+        </main>
+      </motion.body>
     </html>
   );
 }
