@@ -13,7 +13,7 @@ const Header = () => {
       <div className={styles.local_career}>
         <p className={styles.local_career_title}>London, Uk</p>
         <p className={styles.local_career_title}>
-          Photographer & Art Direction
+          Photographer & Art Director
         </p>
       </div>
       <div className={styles.social_links}>

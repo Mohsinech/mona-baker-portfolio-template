@@ -9,7 +9,7 @@ export const navigationLinks = [
 export const socials = [
   { social: "Twitter", href: "#twitter" },
   { social: "Linkdein", href: "#linkdein" },
-  { social: "Github", href: "#github" },
+  { social: "Behance", href: "#behance" },
 ];
 
 // Quick navigation
