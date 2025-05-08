@@ -75,3 +75,13 @@
 .default {
   opacity: 0;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+* {
+  scrollbar-width: none; /* Disables scrollbar */
+  -ms-overflow-style: none; /* For Internet Explorer 10+ */
+}

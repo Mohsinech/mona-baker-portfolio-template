@@ -56,7 +56,6 @@ const DropDownService = ({
             <p className={styles.label_desc}>{labelOneDesc}</p>
           </div>
           <div className={styles.first_label_container}>
-            <h3 className={styles.label_one}>{labelTwo}</h3>
             <div className={styles.btns_array}>
               {[btn1, btn2, btn3, btn4, btn5].map(
                 (btn, index) =>

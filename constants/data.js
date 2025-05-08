@@ -30,7 +30,6 @@ export const DropdownData = [
     labelOne: "Capture Timeless Portraits",
     labelOneDesc:
       "Experience professional portrait photography that highlights individuality and beauty. Perfect for personal branding, family memories, or special occasions.",
-    labelTwo: "Specialized Techniques",
     btn1: "Portrait",
     btn2: "Studio Lighting",
     btn3: "Black & White",
@@ -43,7 +42,6 @@ export const DropdownData = [
     labelOne: "Explore the World Through Our Lens",
     labelOneDesc:
       "Discover breathtaking travel photography capturing stunning landscapes, vibrant cultures, and unforgettable moments from around the globe.",
-    labelTwo: "Capture Every Adventure",
     btn1: "Nature",
     btn2: "Travel",
     btn3: "Cultural Portrait",
@@ -56,7 +54,6 @@ export const DropdownData = [
     labelOne: "Learn the Art of Photography",
     labelOneDesc:
       "Join our workshops and courses to master photography techniques, storytelling, and editing skills to elevate your creative journey.",
-    labelTwo: "Expand Your Skills",
     btn1: "Education",
     btn2: "Workshops",
     btn3: "Creative Techniques",
@@ -64,8 +61,6 @@ export const DropdownData = [
     btn5: "Portfolio Building",
   },
 ];
-
-
 
 // About Content
 export const AboutContent = [

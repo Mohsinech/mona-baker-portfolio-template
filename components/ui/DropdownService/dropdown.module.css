@@ -32,14 +32,14 @@
 .flex_col_labels {
   display: flex;
   height: fit-content;
-  width: 80%;
+  width: 100%;
   flex-direction: column;
   gap: 2rem;
 }
 
 .first_label_container {
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .label_one {
